@@ -42,7 +42,9 @@ navigation*/
 	list-style-type: none;
 	display: inline-block;
 }
-
+.navdiv ul li:hover{
+	background:gray;
+}
 /*background image*/
 .bg-img{
 	background-image: url('../images/b1.jpeg');
@@ -75,6 +77,7 @@ navigation*/
 
 
 .content h1, h5{
+	font-weight: 100;
 	text-align: center;
 	letter-spacing: 3px;
 }
@@ -87,4 +90,14 @@ navigation*/
 	text-align: center;
 	letter-spacing: 2px;
 
+}
+button{
+	width: 30%;
+ 	text-align: center;
+ 	line-height: 35px;
+	font-weight: bold;
+	background: rgba(255,255,255,0.3);
+	box-shadow: 0 5px 7px rgba(0,0,0,0.9);
+ 	margin-top: 20px;
+	margin-right: 75px;
 }
