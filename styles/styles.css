@@ -1,0 +1,68 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+body, html{
+	height: 100%;
+	margin: 0 auto;
+	font-size: 16px;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: white;
+}
+
+/*div{
+	border: 1px solid white;
+}
+navigation*/
+
+.navdiv{
+	position: relative;
+	width: 100%;
+}
+.navdiv ul li{
+	float: right;	
+	list-style-type: none;
+	display: inline-block;
+
+}
+/*background image*/
+.bg-img{
+	background-image: url('../images/b1.jpeg');
+	height: 100%;
+	position: relative;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed
+}
+
+.prof-pic{
+	position: relative;
+	margin: 15% 0% 0% 37%;
+	border-radius: 4px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.9);
+}
+
+.content{
+	position: relative;
+	float: left;
+	width: 40%;
+}
+
+
+.content h1, h5{
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+.sho-bio{
+	position: relative;
+	float: left;
+	width: 50%;
+	padding-top: 150px;
+	text-align: center;
+	letter-spacing: 2px;
+
+}
