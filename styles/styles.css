@@ -125,7 +125,7 @@ h5{
 }
 #sidebar{
 	width: 300px;
-	height: 1311px;
+	height: 1611px;
 	float: left;
 	padding: 65px 10px 0px;
 	background-color:#2c4654;
@@ -156,7 +156,7 @@ h5{
 }
 /*contents on mainbody*/
 .icon{
-	padding: 10px;
+	padding: 15px;
 	font-size: 40px;
 }
 .info{
