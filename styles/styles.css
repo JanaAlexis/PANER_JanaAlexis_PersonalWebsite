@@ -24,6 +24,7 @@ button{
 	font-family: "Century Gothic", sans-serif;
 	color: white;
 }
+/*HOME*/
 
 /*navigation*/
 .menu{
@@ -78,9 +79,6 @@ button{
 	opacity: 1;
 }
 
-
-
-
 .box_item{
 	font-weight: 200;
 	padding: 10px 20px;
@@ -92,9 +90,12 @@ button{
 	text-align: center;
 	margin-top: 70px;
 }
+
 .logo_bold{
 	font-weight: 800;
 }
+
+
 .logo_title{
 	color: white;
 	font-weight: 200;
@@ -102,12 +103,14 @@ button{
 	text-align: center;
 	padding: 5px 0px;
 }
+
 .nav_sel{
 	margin: 20px 0px;
 	display: block;
 	width: 200px;
 	margin-left: 25px;
 }
+
 .nav_item{
 	font-weight: 200;
 	padding: 12px 0px;
@@ -118,18 +121,17 @@ button{
 	transition: all 0.3s ease-in-out;
 	cursor: pointer;
 }
-/*HOME*/
 
 /*background image*/
 
 .bg-img{
-	background-image: url('../images/b1.jpeg');
+	background-image: url('../images/b1.jpg');
 	height: 100%;
 	position: relative;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed
+	background-attachment: fixed;
 }
 /*profile*/
 
@@ -181,11 +183,44 @@ h5{
 	text-align: center;
 	letter-spacing: 2px;
 }
+/*Other contents below*/
+
+.section{
+	text-align: center;
+	padding: 50px 90px;
+}
+
+.section-light{
+	background-color: #f4f4f4;
+	color: #665;
+}
+
+.section-dark{
+	background-color: #282e34;
+	color: #ddd;
+}
+
 
 
 /*RESUME DESIGNS*/
 
+/*navigation*/
+#home{
+	width:auto;
+	height:80px;
+	background: #282e34;
+	line-height: 80px;
+	color: white;
+}
 
+#home a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+#home:hover{
+	background:grey;
+}
 #container{
 	width: 100%;
 	height: auto;
@@ -218,15 +253,19 @@ h5{
 	text-align: center;
 }
 .social-media{
-	padding-top:25px; 
-	font-size: 40px;
+	padding-top:50px;
+}
+.social-media a{
 	color: white;
+	font-size: 30px;
+
 }
 /*contents on mainbody*/
 .icon{
 	padding: 10px;
 	font-size: 40px;
 }
+
 .info{
 	padding: 50px;
 	margin: 0px 25px;

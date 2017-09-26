@@ -1,4 +1,5 @@
 $(document).ready(function(){
+	
 	$(".fa-times").click(function(){
 		$(".menu").addClass("hide_menu");
 		$(".toggle_menu").addClass("opacity_one");
