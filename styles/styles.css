@@ -79,6 +79,24 @@ button{
 	text-align: center;
 	padding: 5px 0px;
 }
+.nav_sel{
+	margin: 20px 0px;
+	display: block;
+	width: 200px;
+	margin-left: 25px;
+}
+.nav_item{
+	font-weight: 200;
+	padding: 12px 0px;
+	box-sizing: border-box;
+	font-size: 14px;
+	color: #DBDBDB;
+	border-bottom:  solid 1px #DBDBDB;
+	transition: all 0.3s ease-in-out;
+	cursor: pointer;
+}
+
+
 /*HOME*/
 
 /*background image*/
