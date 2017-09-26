@@ -46,6 +46,18 @@ button{
 	opacity: 0.9;
 	transition: all 0.3s ease-in-out;
 }
+.fa-times{
+	right: 10px;
+	top: 10px;
+	opacity: 0.7;
+	cursor: pointer;
+	position: absolute;
+	transition: all 0.3s ease-in-out;
+	color: white;
+}
+.fa-times:hover {
+	opacity: 1;
+}
 
 /*HOME*/
 
