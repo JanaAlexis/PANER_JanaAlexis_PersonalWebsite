@@ -58,11 +58,30 @@ button{
 .fa-times:hover {
 	opacity: 1;
 }
-
+.box_item{
+	font-weight: 200;
+	padding: 10px 20px;
+	display: inline-block;
+	border: solid 2px white;
+	box-sizing: border-box;
+	font-size: 22px;
+	color: white;
+	text-align: center;
+	margin-top: 70px;
+}
+.logo_bold{
+	font-weight: 800;
+}
+.logo_title{
+	color: white;
+	font-weight: 200;
+	font-size: 12px;
+	text-align: center;
+	padding: 5px 0px;
+}
 /*HOME*/
 
 /*background image*/
-
 
 .bg-img{
 	background-image: url('../images/b1.jpeg');
