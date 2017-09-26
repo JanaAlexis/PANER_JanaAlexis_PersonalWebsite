@@ -33,38 +33,19 @@ button{
 	background-color: #648B79;
 	z-index: 1000000;
 	font-size: 2em;
+	opacity: 0;
 }
-
-
-/*
-.navdiv{
-	width: 100%;
+.menu{
+	position: fixed;
+	height: 100vh;
+	width: 250px;
+	margin-left: 0px;
+	overflow: hidden;
+	max-height: 100vh;
+	background-color: rgba(17,17,17,0.9);
+	opacity: 0.9;
+	transition: all 0.3s ease-in-out;
 }
-
-.navdiv ul{
-	width: 100%;
-	height:80px;
-	background: #282e34;
-	line-height: 80px;
-	color: white;
-}
-
-.navdiv ul a{
-	text-decoration: none;
-	color: white;
-	padding: 20px;
-}
-
-.navdiv ul li{
-	float: right;	
-	list-style-type: none;
-	display: inline-block;
-}
-
-.navdiv ul li:hover{
-	background:gray;
-}
-*/
 
 /*HOME*/
 
