@@ -1,0 +1,13 @@
+
+#container{
+	width: 1025px;
+	height: auto;
+	margin: 0px auto;
+	border: 2px solid;
+	border-color: grey; 
+}
+#content{
+	background-color: grey;
+	padding: 10px 30px;
+}
+
