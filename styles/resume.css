@@ -1,4 +1,25 @@
-
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body, html{
+	font-size: 16px;
+	font-family: "Century Gothic", sans-serif;
+	font-weight: 40
+	line-height: 1.8em;
+	color: black;
+}
+button{
+	width: 25%;
+ 	text-align: center;
+ 	line-height: 30px;
+	font-weight: bold;
+	border-radius: 10px;
+	background: rgba(255,255,255,0.3);
+	box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+ 	margin-left: 444px;
+	color: white;
+}
 #container{
 	width: 1025px;
 	height: auto;
@@ -10,4 +31,32 @@
 	background-color: grey;
 	padding: 10px 30px;
 }
+
+.prof-pic{
+	padding-top: 40px;
+	float: left;
+    margin: 0px 50px;
+	
+}
+.prof_info{
+	font-size: 19px;
+	padding: 65px 0px;
+	padding-right: 65px;
+	float: left;
+	margin: 0px 50px;
+
+}
+.social-media{
+	color: white;
+	font-size: 30px;
+}
+.icon{
+	padding: 15px;
+	font-size: 25px;
+
+}
+.info{
+	padding: 20px 40px;
+}
+
 
