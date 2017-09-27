@@ -125,14 +125,24 @@ button{
 
 /*background image*/
 
-.bg-img{
-	background-image: url('../images/b1.jpg');
-	height: 100%;
+.bg-img1, .bg-img2, .bg-img3, .bg-img4{
 	position: relative;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+}
+.bg-img1{
+	background-image: url('../images/b1.jpeg');
+	height: 100%;
+}
+.bg-img2{
+	background-image: url('../images/b2.jpeg');
+	height: 100%;
+}
+.bg-img3{
+	background-image: url('../images/b3.jpeg');
+	height: 100%;
 }
 /*profile*/
 
@@ -199,9 +209,20 @@ h5{
 	background-color: #282e34;
 	color: #ddd;
 }
+.icon_co{
+	padding: 10px;
+	font-size: 25px;
+}
 .icon{
 	padding: 15px;
-	font-size: 25px;
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: white;
+	font-size: 27px;
+	letter-spacing: .2px;
+	text-transform: uppercase;
 
 }
 .info{
