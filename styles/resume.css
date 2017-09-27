@@ -3,6 +3,7 @@
 	padding: 0px;
 }
 body, html{
+	background-color: black;
 	font-size: 16px;
 	font-family: "Century Gothic", sans-serif;
 	font-weight: 40
@@ -15,35 +16,39 @@ button{
  	line-height: 30px;
 	font-weight: bold;
 	border-radius: 10px;
-	background: rgba(255,255,255,0.3);
+	background: rgba(0,0,0,0.3);
 	box-shadow: 0 4px 6px rgba(0,0,0,0.5);
  	margin-left: 444px;
-	color: white;
+	color: black;
+	cursor: pointer;
 }
 #container{
 	width: 1025px;
 	height: auto;
 	margin: 0px auto;
 	border: 2px solid;
-	border-color: grey; 
+}
+#menu{
+	height: 25px;
+	background-color: white;
+	padding: 8px 0px 14px 400px;
 }
 #content{
-	background-color: grey;
+	background-color: white;
 	padding: 10px 30px;
 }
-
 .prof-pic{
-	padding-top: 40px;
+	border: 1px solid;
+	border-color: black;
 	float: left;
-    margin: 0px 50px;
-	
+    margin: 20px 100px 0px 235px;
+	border-radius: 30px;	
 }
 .prof_info{
 	font-size: 19px;
-	padding: 65px 0px;
-	padding-right: 65px;
+	padding: 60px 0px;
 	float: left;
-	margin: 0px 50px;
+	margin: 0px 20px;
 
 }
 .social-media{
